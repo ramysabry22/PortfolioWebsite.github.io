@@ -1,0 +1,140 @@
+/*colors*/
+:root {
+    --primaryOne: #04B4E0;
+    --primaryTwo: #ffffff;
+    --primaryThree: #222;
+    --secondaryOne: #555;
+    --secondaryTwo: #aaa;
+}
+/*colors*/
+/* Fixed sidenav, full height */
+body {
+    height: 1000px;
+}
+.sidenav {
+    height: 100%;
+    width: 800px;
+    position: fixed;
+    top: 0;
+    
+}
+.sidenav .first-side {
+    display: inline-block;
+    background-color: #fff;
+    height: 100%;
+    width: auto;
+    padding-top: 20px;
+        
+}
+.sidenav .sec-side {
+    display: inline-block;
+    background-color: #04B4E0;
+    min-height: 100%;
+    width: 420px;
+    position: absolute;
+}
+/* Style the sidenav links and the dropdown button */
+.sidenav .first-side i {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.sidenav .first-side a{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--primaryThree);
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+}
+.sidenav .sec-side .content {
+    margin-top: 10%;
+}
+.sidenav .sec-side .content img {
+    border-radius: 50%;
+}
+.sidenav .sec-side .content h1 {
+    color: var(--primaryTwo);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.sidenav .sec-side .content p {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--primaryTwo);
+    line-height: 1.2em; 
+    margin-bottom: 30px;
+}
+.sidenav .sec-side .content ul {
+    display: inline;
+    list-style: none;
+    color: var(--primaryTwo);
+    margin-right: 65px;
+}
+.sidenav .sec-side .content ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.sidenav .sec-side .content ul li a {
+    text-decoration: none;
+    color: var(--primaryTwo);
+    font-size: 20px;
+}
+.sidenav .sec-side .content .bt {
+    margin-top: 60px;
+    width: auto;
+}
+.sidenav .sec-side .content .btn {
+    border: 2px solid var(--primaryTwo);
+    border-radius: 50px;
+    color: var(--primaryTwo);
+    cursor: pointer;
+    font-size: 20px;
+    background-color: var(--primaryOne);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.sidenav .sec-side .content .footer {
+    width: 380px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 20px;
+}
+.sidenav .sec-side .content .footer p {
+    font-size: 15px;
+}
+/* On mouse-over */
+.sidenav .first-side i:hover {
+  color: var(--primaryOne);
+    transition: 0.5s;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    color: var(--primaryOne);
+    transition: 1s;
+}
+/* Main content */
+.main {
+  margin-left: 550px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
+/* Some media queries for responsiveness */
+@media screen and (max-width: 500px) {
+  .main {margin-left: 0px;}
+}
