@@ -13,6 +13,36 @@
 body {
     overflow-x: hidden;
 }
+/*start navbar*/
+.navbar {
+    z-index: 999;
+    background-color: var(--primaryOne);
+}
+.navbar-default .navbar-toggle {
+    border-color: var(--primaryTwo);
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: var(--primaryTwo);
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background: transparent;
+}
+.navbar .navbar-header a {
+    color: var(--primaryTwo);
+}
+.navbar .navbar-header a:hover {
+    color: var(--primaryTwo);
+}
+.navbar-default .navbar-nav li a {
+    color: var(--primaryTwo);
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: var(--primaryTwo);
+}
+/*end navbar*/
 /*start fixed section*/
 .sidenav {
     height: 100%;
@@ -235,7 +265,7 @@ body {
 @media screen and (max-width: 500px) {
   .main {
       margin-left: 0px;
-      top: 0;
+      top: 10%;
     }
     .main .pic img {
         margin-top: 20px;
@@ -245,7 +275,10 @@ body {
 }
     .work-examples {
         margin-left: 0px;
-        top: 0;
+        top: 10%;
+    }
+    .main .text .bt-two {
+        margin-bottom: 40px;
     }
 }
 @media only screen and (min-width: 1600px) {

@@ -11,3 +11,7 @@ $(".add").click(function(){
     $(".add i").addClass("active");
     $(".work-examples").addClass("hidden");
   });
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
