@@ -147,6 +147,14 @@ body {
     top: 20%;
     
 }
+ .work-examples {
+    margin-left: 570px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    position: absolute;
+    padding: 0px 10px;
+    top: 5%;
+}
+
 .main .pic img {
     border-radius: 50%;
     border: 15px solid var(--primaryOne);
@@ -235,6 +243,10 @@ body {
     .main .text {
     margin-left: 0px;
 }
+    .work-examples {
+        margin-left: 0px;
+        top: 0;
+    }
 }
 @media only screen and (min-width: 1600px) {
 .main {
@@ -244,6 +256,9 @@ body {
 .main .text {
     margin-left: -70px;
 }
+.work-examples {
+        margin-left: 570px;
+    }
 }
 @media only screen and (min-width: 1700px) {
 .main {
@@ -253,4 +268,7 @@ body {
 .main .text {
     margin-left: -70px;
 }
+.work-examples {
+        margin-left: 770px;
+    }
 }
