@@ -3,14 +3,18 @@
     --primaryOne: #04B4E0;
     --primaryTwo: #ffffff;
     --primaryThree: #222;
+    --primaryFour: #666;
     --secondaryOne: #555;
     --secondaryTwo: #aaa;
+    --secondarythree: #d5d5d5;
 }
 /*colors*/
 /* Fixed sidenav, full height */
 body {
     height: 1000px;
+    overflow-x: hidden;
 }
+/*start fixed section*/
 .sidenav {
     height: 100%;
     width: 800px;
@@ -105,6 +109,11 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+.sidenav .sec-side .content .btn a {
+    color: var(--primaryTwo);
+    text-decoration: none;
 }
 .sidenav .sec-side .content .footer {
     width: 380px;
@@ -126,15 +135,114 @@ body {
     color: var(--primaryOne);
     transition: 1s;
 }
+
+/*end fixed section*/
+
+/*start about me section*/
 /* Main content */
 .main {
-  margin-left: 550px; /* Same as the width of the sidenav */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+    margin-left: 470px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    position: absolute;
+    padding: 0px 10px;
+    top: 20%;
+    
+}
+.main .pic img {
+    border-radius: 50%;
+    border: 15px solid var(--primaryOne);
+    margin-top: 20px;
+}
+.main .text {
+    margin-left: -70px;
+}
+.main .text h4 {
+    font-size: 16px;
+    color: var(--secondaryTwo);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.main .text h1 {
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.main .text p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: var(--secondaryOne);
+}
+.main .text .bt-two {
+    margin-top: 40px;
+}
+.main .text .bt-two .btn-one {
+    margin-right: 10px;
+    border: 2px solid var(--primaryOne);
+    border-radius: 50px;
+    background-color: var(--primaryTwo);
+    cursor: pointer;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+    color: var(--primaryThree);
+    text-decoration: none;
+    font-size: 18px;
 }
 
+.main .text .bt-two .btn-one:hover {
+    background-color: var(--primaryOne);
+    color: var(--primaryTwo);
+    transition: 0.5s;
+}
+.main .text .bt-two .btn-two {
+    margin-right: 10px;
+    border: 2px solid var( --secondarythree);
+    border-radius: 50px;
+    background-color: var(--primaryTwo);
+    cursor: pointer;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+    color: var(--primaryFour);
+    text-decoration: none;
+    font-size: 18px;
+}
 
+.main .text .bt-two .btn-two:hover {
+    background-color: var(--secondarythree);
+    color: var(--primaryFour);
+    transition: 0.5s;
+}
+/*end about me section*/
 /* Some media queries for responsiveness */
 @media screen and (max-width: 500px) {
-  .main {margin-left: 0px;}
+  .main {
+      margin-left: 0px;
+      top: 0;
+    }
+    .main .pic img {
+        margin-top: 20px;
+    }
+    .main .text {
+    margin-left: 0px;
+}
+}
+@media only screen and (min-width: 1500px) {
+.main {
+    margin-left: 570px; /* Same as the width of the sidenav */
+    
+}
+.main .text {
+    margin-left: -70px;
+}
 }
