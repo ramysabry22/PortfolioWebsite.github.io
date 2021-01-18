@@ -11,7 +11,6 @@
 /*colors*/
 /* Fixed sidenav, full height */
 body {
-    height: 1000px;
     overflow-x: hidden;
 }
 /*start fixed section*/
@@ -246,7 +245,7 @@ body {
     margin-left: -70px;
 }
 }
-@media only screen and (min-width: 1900px) {
+@media only screen and (min-width: 1700px) {
 .main {
     margin-left: 770px; /* Same as the width of the sidenav */
     

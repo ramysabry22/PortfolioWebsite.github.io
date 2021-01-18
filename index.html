@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
@@ -22,7 +22,7 @@
 <body>
     <section class="sidenav hidden-xs">
             <div class="first-side">
-              <a href="#about"><i class=" active fas fa-user-alt"></i>About Me</a>
+              <a href="#about" class="add"><i class=" active fas fa-user-alt"></i>About Me</a>
                 <hr>
               <a href="#services"><i class="fas fa-briefcase"></i>Work Samples</a>
                 <hr>
@@ -48,20 +48,22 @@
     </section>
 
     <section class="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-xl-5 text-center pic">
-                    <img src="img/WhatsApp%20Image%202021-01-18%20at%201.14.37%20AM.jpeg" style="width: 300px; height: 300px;">
-                </div>
-                <div class="col-md-4 text">
-                    <h4>iOS Developer</h4>
-                    <h1>Ramy Ayman</h1>
-                    <p>Passionate iOS Developer, loves to build mobile apps, growing in clean
-                    code writing and using architectural and design patterns to provide
-                    robust software</p>
-                    <div class="bt-two">
-                        <a class="btn-one" href="https://github.com/ramysabry22/Cv/raw/master/CV/Ramy_Sabry_iOS_Developer_CV.pdf">Download CV</a>
-                        <a class="btn-two" href="https://github.com/ramysabry22/Cv/raw/master/CV/Ramy_Sabry_iOS_Developer_CV.pdf">Contact</a>
+        <div class="main-page-one wow bounceInUp" data-wow-duration="2s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-xl-5 text-center pic">
+                        <img src="img/WhatsApp%20Image%202021-01-18%20at%201.14.37%20AM.jpeg" style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="col-md-4 text" >
+                        <h4>iOS Developer</h4>
+                        <h1>Ramy Ayman</h1>
+                        <p>Passionate iOS Developer, loves to build mobile apps, growing in clean
+                        code writing and using architectural and design patterns to provide
+                        robust software</p>
+                        <div class="bt-two">
+                            <a class="btn-one" href="https://github.com/ramysabry22/Cv/raw/master/CV/Ramy_Sabry_iOS_Developer_CV.pdf">Download CV</a>
+                            <a class="btn-two" href="https://github.com/ramysabry22/Cv/raw/master/CV/Ramy_Sabry_iOS_Developer_CV.pdf">Contact</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,4 +73,5 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/style.js"></script>
 	<script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript"> new WOW().init();</script>
 </body>
