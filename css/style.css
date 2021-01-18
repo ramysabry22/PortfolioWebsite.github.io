@@ -237,9 +237,18 @@ body {
     margin-left: 0px;
 }
 }
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1600px) {
 .main {
     margin-left: 570px; /* Same as the width of the sidenav */
+    
+}
+.main .text {
+    margin-left: -70px;
+}
+}
+@media only screen and (min-width: 1900px) {
+.main {
+    margin-left: 770px; /* Same as the width of the sidenav */
     
 }
 .main .text {
