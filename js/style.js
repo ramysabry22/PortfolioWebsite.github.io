@@ -47,4 +47,3 @@ $('.navbar-nav>li>a').on('click', function(){
 });
 
 
-//data-wow-duration="2s"
