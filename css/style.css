@@ -333,8 +333,9 @@ h1 {
         margin-left: 0px;
         top: 10%;
     }
-    .cv embed {
+    .cv object {
         height: 460px;
+        width: 100%;
     }
 }
 @media only screen and (min-width: 1600px) {
@@ -388,7 +389,7 @@ h1 {
     .cv {
         margin-left: 500px;
     }
-    .cv embed {
+    .cv object {
         height: 620px;
         width: 100%;
         margin-left: 2%;
