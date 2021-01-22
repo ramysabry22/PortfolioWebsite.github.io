@@ -34,28 +34,28 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about" class="add">About Me</a></li>
+        <li><a href="#about" class="me">About Me</a></li>
         <li><a href="#services" class="work">Work Samples</a></li>
-          <li><a href="#clients">CV</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#clients" class="cv-cv">CV</a></li>
+          <li><a href="#contact" class="contact-c">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
     <section class="sidenav hidden-xs">
             <div class="first-side">
-              <a href="#about" class="add"><i class=" active fas fa-user-alt"></i>About Me</a>
+              <a href="#about" class="me"><i class=" active fas fa-user-alt"></i>About Me</a>
                 <hr>
               <a href="#services" class="work"><i class="fas fa-briefcase"></i>Work Samples</a>
                 <hr>
-              <a href="#clients"><i class="fas fa-graduation-cap"></i>CV</a>
+              <a href="#clients" class="cv-cv"><i class="fas fa-graduation-cap"></i>CV</a>
                 <hr>
-              <a href="#contact"><i class="far fa-envelope"></i>Contact</a>
+              <a href="#contact" class="contact-c"><i class="far fa-envelope"></i>Contact</a>
                 <hr>
             </div>
             <div class="sec-side text-center">
                 <div class="content">
-                    <img src="img/WhatsApp%20Image%202021-01-18%20at%201.14.37%20AM.jpeg" style="width: 150px; height: 150px;">
+                    <img id="pic" src="img/WhatsApp%20Image%202021-01-18%20at%201.14.37%20AM.jpeg" style="width: 150px; height: 150px;">
                     <h1>Ramy Ayman</h1>
                     <p>iOS Developer</p>
                     <ul>
@@ -70,7 +70,7 @@
     </section>
 
     <section class="main">
-        <div class="main-page wow bounceInUp" data-wow-duration="2s">
+        <div class="main-page">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-xl-5 text-center pic">
@@ -107,6 +107,26 @@
                 <source src="img/sbs.mp4" type="video/ogg">
                 </video>
             </div>
+    </section>
+    <section class="cv wow zoomInUp hidden" data-wow-duration="2s">
+        <embed src="cv/Ramy_Sabry_iOS_Developer_CV.pdf" width="100%" height="750px;" />
+    </section>
+    <section class="contact wow fadeInRightBig hidden" data-wow-duration="2s">
+        <h1>Contact</h1>
+        <div class="row edit">
+                <div class="col-md-4 col-xl-4 col-xs-12 card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h2>Helwan – Cairo</h2>
+                </div>
+                <div class="col-md-4 col-xl-4 col-xs-12 card">
+                    <i class="fas fa-phone"></i>
+                    <h2>+2 01158788066</h2>
+                </div>
+                <div class="col-md-4 col-xl-4 col-xs-12 card">
+                    <i class="far fa-envelope"></i>
+                    <h2 class="p-edit">ramysabry1996@gmail.com</h2>
+                </div>
+        </div>
     </section>
     <script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>

@@ -12,6 +12,10 @@
 /* Fixed sidenav, full height */
 body {
     overflow-x: hidden;
+    
+}
+h1 {
+    font-weight: bold;
 }
 /*start navbar*/
 .navbar {
@@ -187,8 +191,9 @@ body {
 
 .main .pic img {
     border-radius: 50%;
-    border: 15px solid var(--primaryOne);
+    border: 20px solid var(--primaryTwo);
     margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .main .text {
     margin-left: -70px;
@@ -261,6 +266,38 @@ body {
     transition: 0.5s;
 }
 /*end about me section*/
+
+/*start contact section*/
+.contact {
+    margin-left: 570px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    position: absolute;
+    padding: 0px 10px;
+    top: 5%;
+}
+.contact .edit {
+    margin-top: 50px;
+}
+.contact .card {
+    border: 2px solid var(--secondarythree);
+    width: 320px;
+    margin-right: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+    height: 150px;
+}
+.contact .card i {
+    font-size: 35px;
+    color: var(--primaryOne);
+}
+.contact .card .p-edit {
+    font-size: 23px;
+}
+/*end contact section*/
+.cv {
+    margin-left: 470px; /* Same as the width of the sidenav */
+}
 /* Some media queries for responsiveness */
 @media screen and (max-width: 500px) {
   .main {
@@ -280,6 +317,25 @@ body {
     .main .text .bt-two {
         margin-bottom: 40px;
     }
+    .main .text .bt-two .btn-two {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .contact {
+        margin-left: 0px;
+        top: 10%;
+        margin-left: 20px;
+    }
+    .contact .card {
+        margin-bottom: 20px;
+    }
+    .cv {
+        margin-left: 0px;
+        top: 10%;
+    }
+    .cv embed {
+        height: 460px;
+    }
 }
 @media only screen and (min-width: 1600px) {
 .main {
@@ -292,6 +348,12 @@ body {
 .work-examples {
         margin-left: 570px;
     }
+.contact {
+        margin-left: 570px;
+    }
+.cv {
+        margin-left: 540px;
+    }
 }
 @media only screen and (min-width: 1700px) {
 .main {
@@ -303,5 +365,32 @@ body {
 }
 .work-examples {
         margin-left: 770px;
+    }
+    .contact {
+        margin-left: 770px;
+    }
+    .cv {
+        margin-left: 770px;
+    }
+}
+
+@media only screen and (width: 1366px) {
+    .contact .card {
+        margin-right: 5px;
+        width: 260px;
+    }
+    .contact .card h2 {
+        font-size: 20px;
+    }
+        .contact .card .p-edit {
+        font-size: 18px;
+    }
+    .cv {
+        margin-left: 500px;
+    }
+    .cv embed {
+        height: 620px;
+        width: 100%;
+        margin-left: 2%;
     }
 }
