@@ -17,6 +17,10 @@ body {
 h1 {
     font-weight: bold;
 }
+.m {
+    margin-left: -5%;
+    margin-bottom: 3%;
+}
 /*start navbar*/
 .navbar {
     z-index: 999;
@@ -74,16 +78,17 @@ h1 {
 .sidenav .first-side i {
     display: block;
     text-align: center;
-    font-size: 25px;
+    font-size: 26px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .sidenav .first-side a{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-bottom: 30px;
     text-align: center;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 11px;
     color: var(--primaryThree);
     display: block;
     width: 100%;
@@ -91,7 +96,7 @@ h1 {
     outline: none;
 }
 .sidenav .sec-side .content {
-    margin-top: 10%;
+    margin-top: 12%;
 }
 .sidenav .sec-side .content img {
     border-radius: 50%;
@@ -158,15 +163,22 @@ h1 {
     font-size: 15px;
 }
 /* On mouse-over */
-.sidenav .first-side i:hover {
-  color: var(--primaryOne);
+.sidenav .first-side a:hover :not(p){
+    color: var(--primaryOne);
     transition: 0.5s;
+    webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
 }
-
 /* Add an active class to the active dropdown button */
 .active {
     color: var(--primaryOne);
     transition: 1s;
+    webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -ms-transition: 1s;
 }
 
 /*end fixed section*/
@@ -191,12 +203,12 @@ h1 {
 
 .main .pic img {
     border-radius: 50%;
-    border: 20px solid var(--primaryTwo);
+    border: 18px solid var(--primaryTwo);
     margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0px 25px 0px rgba(0, 0, 0, 0.1);
 }
 .main .text {
-    margin-left: -70px;
+    margin-left: -50px;
 }
 .main .text h4 {
     font-size: 16px;
@@ -278,6 +290,10 @@ h1 {
 .contact .edit {
     margin-top: 50px;
 }
+.contact .edit h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
 .contact .card {
     border: 2px solid var(--secondarythree);
     width: 320px;
@@ -292,7 +308,8 @@ h1 {
     color: var(--primaryOne);
 }
 .contact .card .p-edit {
-    font-size: 23px;
+    font-size: 20px;
+    font-weight: bold;
 }
 /*end contact section*/
 .cv {
@@ -300,6 +317,9 @@ h1 {
 }
 /* Some media queries for responsiveness */
 @media screen and (max-width: 500px) {
+    .m {
+        margin-left: 0%;
+    }
   .main {
       margin-left: 0px;
       top: 10%;
@@ -339,12 +359,15 @@ h1 {
     }
 }
 @media only screen and (min-width: 1600px) {
+    .m {
+        margin-left: -2%;
+    }
 .main {
     margin-left: 570px; /* Same as the width of the sidenav */
     
 }
 .main .text {
-    margin-left: -70px;
+    margin-left: -50px;
 }
 .work-examples {
         margin-left: 570px;
@@ -358,20 +381,20 @@ h1 {
 }
 @media only screen and (min-width: 1700px) {
 .main {
-    margin-left: 770px; /* Same as the width of the sidenav */
+    margin-left: 570px; /* Same as the width of the sidenav */
     
 }
 .main .text {
-    margin-left: -70px;
+    margin-left: -50px;
 }
 .work-examples {
-        margin-left: 770px;
+        margin-left: 570px;
     }
     .contact {
-        margin-left: 770px;
+        margin-left: 570px;
     }
     .cv {
-        margin-left: 770px;
+        margin-left: 570px;
     }
 }
 
@@ -390,8 +413,14 @@ h1 {
         margin-left: 500px;
     }
     .cv object {
-        height: 620px;
-        width: 100%;
+        height: 520px;
+        width: 98%;
         margin-left: 2%;
+    }
+    .main .pic img {
+        margin-left: 20px;
+    }
+    .m {
+        margin-left: 1%;
     }
 }
