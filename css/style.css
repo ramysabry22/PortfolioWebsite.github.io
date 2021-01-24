@@ -17,8 +17,7 @@ body {
 h1 {
     font-weight: bold;
 }
-.m {
-    margin-left: -5%;
+.m-s {
     margin-bottom: 3%;
 }
 /*start navbar*/
@@ -420,7 +419,7 @@ h1 {
     .main .pic img {
         margin-left: 20px;
     }
-    .m {
+    .m-s {
         margin-left: 1%;
     }
 }
