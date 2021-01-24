@@ -10,13 +10,14 @@ $(".me").click(function(){
   });
 
 $(".work").click(function(){
-    $(".main-page").addClass("hidden");
+    $(".main-page").addClass("wow slideInRight");
     $(".cv").addClass("hidden");
     $(".contact").addClass("hidden");
     $(".work i").addClass("active");
     $(".me i").removeClass("active");
     $(".cv-cv i").removeClass("active");
     $(".contact-c i").removeClass("active");
+    $(".main-page").addClass("hidden");
     $(".work-examples").removeClass("hidden");
   });
 
