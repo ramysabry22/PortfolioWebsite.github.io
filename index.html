@@ -135,5 +135,16 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/style.js"></script>
 	<script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript"> new WOW().init();</script>
+    <script type="text/javascript">                       
+        wow = new WOW(
+        {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       false,       // default
+        live:         true        // default
+        }
+        )
+        wow.init();
+    </script>
 </body>

@@ -10,7 +10,6 @@ $(".me").click(function(){
   });
 
 $(".work").click(function(){
-    $(".main-page").addClass("wow slideInRight");
     $(".cv").addClass("hidden");
     $(".contact").addClass("hidden");
     $(".work i").addClass("active");

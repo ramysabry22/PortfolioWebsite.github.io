@@ -328,13 +328,14 @@ h1 {
     margin-left: 470px; /* Same as the width of the sidenav */
 }
 /* Some media queries for responsiveness */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .m {
         margin-left: 0%;
     }
   .main {
       margin-left: 0px;
       top: 10%;
+      background-color: gold;
     }
     .main .pic img {
         margin-top: 20px;
@@ -370,12 +371,23 @@ h1 {
         width: 100%;
     }
 }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 600px) {
+    .main {
+        background-color: aqua;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .main {
+        background-color: red;
+    }
+}
+@media only screen and (min-width: 992px) {
     .m {
         margin-left: -2%;
     }
 .main {
     margin-left: 570px; /* Same as the width of the sidenav */
+    background-color: green;
     
 }
 .main .text {
@@ -391,9 +403,10 @@ h1 {
         margin-left: 540px;
     }
 }
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: 1200px) {
 .main {
     margin-left: 570px; /* Same as the width of the sidenav */
+    background-color: black;
     
 }
 .main .text {
@@ -410,6 +423,7 @@ h1 {
     }
 }
 
+/*
 @media only screen and (width: 1366px) {
     .contact .card {
         margin-right: 5px;
@@ -436,3 +450,4 @@ h1 {
         margin-left: 1%;
     }
 }
+*/
