@@ -37,6 +37,7 @@ h1 {
 .navbar {
     z-index: 999;
     background-color: var(--primaryOne);
+    width: 100%;
 }
 .navbar-default .navbar-toggle {
     border-color: var(--primaryTwo);
@@ -222,7 +223,7 @@ h1 {
     height: 100%;
 }
 .main .text {
-    margin-left: -50px;
+    margin-left: -500px;
 }
 .main .text h4 {
     font-size: 16px;
@@ -298,7 +299,7 @@ h1 {
     margin-left: 570px; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     position: absolute;
-    padding: 0px 10px;
+    padding: 0px 20px;
     top: 5%;
 }
 .contact .edit {
@@ -337,7 +338,6 @@ h1 {
   .main {
       margin-left: 0px;
       top: 10%;
-      background-color: gold;
     }
     .main .pic img {
         margin-top: 20px;
@@ -347,6 +347,9 @@ h1 {
     .main .text {
     margin-left: 0px;
 }
+    .main .text h1 {
+        font-size: 40px;
+    }
     .work-examples {
         margin-left: 0px;
         top: 10%;
@@ -354,9 +357,13 @@ h1 {
     .main .text .bt-two {
         margin-bottom: 40px;
     }
+    .main .text .bt-two .btn-one {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
     .main .text .bt-two .btn-two {
-        padding-left: 24px;
-        padding-right: 24px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .contact {
         margin-left: 0px;
@@ -365,68 +372,183 @@ h1 {
     }
     .contact .card {
         margin-bottom: 20px;
+        width: 95%;
     }
-    .cv {
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-default .navbar-nav li .cv-cv
+    {
+        display: none;
+    }
+    .main {
         margin-left: 0px;
-        top: 10%;
+        margin-top: -10%;
     }
-    .cv object {
-        height: 460px;
+    .sidenav {
+        display: none;
+    }
+    .main .pic img {
+        width: 90%;
+        height: 90%;
+    }
+    .main .text {
+        margin-left: 2%;
+    }
+    .work-examples {
+        margin-left: 0px;
+    }
+    .contact {
+        margin-left: 10px;
+    }
+    .contact .card {
         width: 100%;
     }
-}
-@media only screen and (min-width: 600px) {
-    .main {
-        background-color: aqua;
+    .contact .card i {
+        font-size: 40px;
     }
+    .contact .edit h2 {
+    font-size: 30px;
+    font-weight: bold;
 }
-@media only screen and (min-width: 768px) {
-    .main {
-        background-color: red;
+    .contact .card .p-edit {
+        font-size: 30px;
     }
 }
 @media only screen and (min-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+.sidenav .first-side .cv-cv{
+        display: none;
+    }
+.sidenav .first-side .hr {
+        display: none;
+    }
+.sidenav {
+        display: inline-block;
+    }
+    .sidenav .sec-side .content{
+        margin-top: 30%;
+    }
     .m {
         margin-left: -2%;
     }
 .main {
-    margin-left: 570px; /* Same as the width of the sidenav */
-    background-color: green;
+    margin-left: 520px; /* Same as the width of the sidenav */
+    top: 40%;
     
 }
+.main .pic img {
+    width: 100%;
+    height: 100%;
+    }
 .main .text {
-    margin-left: -50px;
+    margin-left: 6%;
 }
+.main .text h1 {
+       font-size: 45px; 
+    }
+    .main .text .bt-two {
+        margin-bottom: 40px;
+    }
+    .main .text .bt-two .btn-one {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .main .text .bt-two .btn-two {
+        padding-left: 19px;
+        padding-right: 19px;
+    }
 .work-examples {
-        margin-left: 570px;
+        margin-left: 520px;
     }
 .contact {
-        margin-left: 570px;
+        margin-left: 520px;
     }
-.cv {
-        margin-left: 540px;
+.contact .card {
+        margin-bottom: 20px;
+        width: 90%;
     }
 }
 @media only screen and (min-width: 1200px) {
+.sidenav .first-side .cv-cv{
+        display: block;
+    }
+.sidenav .first-side .hr {
+        display: block;
+    }
+.sidenav .sec-side .content{
+        margin-top: 10%;
+    }
 .main {
-    margin-left: 570px; /* Same as the width of the sidenav */
-    background-color: black;
+    margin-left: 36%;
     
 }
 .main .text {
-    margin-left: -50px;
+    margin-left: -2%;
 }
+.main .pic img {
+    width: 80%;
+    height: 80%;
+    }
 .work-examples {
-        margin-left: 570px;
+        margin-left: 38%;
     }
     .contact {
-        margin-left: 570px;
+        margin-left: 37%;
     }
     .cv {
-        margin-left: 570px;
+        margin-left: 38%;
+    }
+    .cv object {
+        height: 530px;
+    }
+.contact .card {
+        margin-bottom: 10px;
+        width: 100%;
     }
 }
 
+@media only screen and (min-width: 1600px) {
+.sidenav .first-side .cv-cv{
+        display: block;
+    }
+.sidenav .first-side .hr {
+        display: block;
+    }
+.sidenav .sec-side .content{
+        margin-top: 15%;
+    }
+.main {
+    margin-left: 36%;
+    top: 35%;
+    
+}
+.main .text {
+    margin-left: -2%;
+}
+.main .pic img {
+    width: 80%;
+    height: 80%;
+    }
+.work-examples {
+        margin-left: 33%;
+    }
+    .contact {
+        margin-left: 33%;
+    }
+    .cv {
+        margin-left: 33%;
+    }
+    .cv object {
+        height: 640px;
+    }
+.contact .card {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
 /*
 @media only screen and (width: 1366px) {
     .contact .card {
