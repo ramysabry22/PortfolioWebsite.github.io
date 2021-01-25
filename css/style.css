@@ -549,31 +549,42 @@ h1 {
         width: 100%;
     }
 }
-/*
-@media only screen and (width: 1366px) {
-    .contact .card {
-        margin-right: 5px;
-        width: 260px;
+@media only screen and (min-width: 1800px) {
+.sidenav .first-side .cv-cv{
+        display: block;
     }
-    .contact .card h2 {
-        font-size: 20px;
+.sidenav .first-side .hr {
+        display: block;
     }
-        .contact .card .p-edit {
-        font-size: 18px;
+.sidenav .sec-side .content{
+        margin-top: 15%;
+    }
+.main {
+    margin-left: 35%;
+    top: 35%;
+    
+}
+.main .text {
+    margin-left: -2%;
+}
+.main .pic img {
+    width: 80%;
+    height: 80%;
+    }
+.work-examples {
+        margin-left: 30%;
+    }
+    .contact {
+        margin-left: 33%;
     }
     .cv {
-        margin-left: 500px;
+        margin-left: 30%;
     }
     .cv object {
-        height: 520px;
-        width: 98%;
-        margin-left: 2%;
+        height: 1090px;
     }
-    .main .pic img {
-        margin-left: 20px;
-    }
-    .m-s {
-        margin-left: 1%;
+.contact .card {
+        margin-bottom: 30px;
+        width: 100%;
     }
 }
-*/
