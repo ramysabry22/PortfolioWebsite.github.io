@@ -219,6 +219,8 @@ h1 {
     border: 17px solid var(--primaryTwo);
     margin-top: 20px;
     box-shadow: 0 0px 25px 0px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 350px;
 }
 .main .text {
     margin-left: -500px;
@@ -311,7 +313,7 @@ h1 {
     border: 2px solid var(--secondarythree);
     width: 320px;
     margin-right: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
     padding: 20px 10px;
     height: 150px;
@@ -326,6 +328,7 @@ h1 {
 }
 /*end contact section*/
 .cv {
+    position: absolute;
     margin-left: 470px; /* Same as the width of the sidenav */
 }
 /* Some media queries for responsiveness */
@@ -420,7 +423,7 @@ h1 {
     }
     .main {
         margin-left: 0px;
-        margin-top: -10%;
+        margin-top: 3%;
     }
     .sidenav {
         display: none;
@@ -430,22 +433,24 @@ h1 {
     }
     .work-examples {
         margin-left: 0px;
+        margin-top: 3%;
     }
     .contact {
         margin-left: 10px;
+        margin-top: 3%;
     }
     .contact .card {
-        width: 100%;
+        width: 95%;
     }
     .contact .card i {
-        font-size: 40px;
+        font-size: 35px;
     }
     .contact .edit h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
     .contact .card .p-edit {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 @media only screen and (min-width: 992px) {
@@ -472,11 +477,23 @@ h1 {
     top: 40%;
     
 }
-.main .text {
-    margin-left: 6%;
+.main .pic img {
+    margin-top: 15%;
+    width: 350px;
+    height: 350px;
 }
-.main .text h1 {
-       font-size: 45px; 
+.main .text {
+    margin-top: 6%;
+    width: 400px;
+}
+    .main .text h4 {
+        font-size: 20px;
+    }
+    .main .text h1 {
+        font-size: 40px;
+    }
+    .main .text p {
+        font-size: 23px;
     }
     .main .text .bt-two {
         margin-bottom: 40px;
@@ -492,12 +509,22 @@ h1 {
 .work-examples {
         margin-left: 520px;
     }
+.work-examples .work{
+    margin-left: -1.5%;
+    width: 95%;
+    }
 .contact {
         margin-left: 520px;
     }
 .contact .card {
-        margin-bottom: 20px;
+        margin-bottom: 8px;
         width: 90%;
+    }
+.contact .edit .card i {
+    font-size: 30px;
+    }
+.contact .edit .card h2 {
+    font-size: 23px;
     }
 }
 @media only screen and (min-width: 1200px) {
@@ -512,26 +539,49 @@ h1 {
     }
 .main {
     margin-left: 36%;
+    top: 0%;
     
 }
-.main .text {
-    margin-left: -2%;
+.main .pic img {
+    margin-top: 15%;
+    width: 350px;
+    height: 350px;
 }
+.main .text {
+    margin-left: -5%;
+    margin-top: 6%;
+}
+
 .work-examples {
-        margin-left: 38%;
+        margin-left: 39%;
+        top: 0%;
+    }
+.work-examples .work{
+    margin-left: -1.5%;
+    width: 95%;
     }
     .contact {
-        margin-left: 37%;
+        margin-left: 39%;
+        top: 0%;
     }
     .cv {
-        margin-left: 38%;
+        margin-left: 39%;
+        position: absolute;
+        top: 4%;
     }
     .cv object {
-        height: 530px;
+        height: 500px;
+        width: 820px;
     }
 .contact .card {
         margin-bottom: 10px;
-        width: 100%;
+        width: 90%;
+    }
+    .contact .edit .card i {
+        font-size: 30px;
+    }
+    .contact .edit .card h2 {
+        font-size: 25px;
     }
 }
 
@@ -547,23 +597,46 @@ h1 {
     }
 .main {
     margin-left: 36%;
-    top: 35%;
+    top: 3%;
     
 }
-.main .text {
-    margin-left: -2%;
+.main .pic img {
+    margin-top: 15%;
+    width: 400px;
+    height: 400px;
 }
+.main .text {
+    margin-left: 2%;
+    margin-top: 6%;
+    width: 500px;
+}
+    .main .text h4 {
+        font-size: 25px;
+    }
+    .main .text h1 {
+        font-size: 45px;
+    }
+    .main .text p {
+        font-size: 24px;
+    }
 .work-examples {
         margin-left: 33%;
+    }
+.work-examples .work{
+    margin-left: -1.5%;
+    width: 95%;
     }
     .contact {
         margin-left: 33%;
     }
     .cv {
         margin-left: 33%;
+        position: absolute;
+        top: 5%;
     }
     .cv object {
-        height: 640px;
+        height: 620px;
+        width: 1050px;
     }
 .contact .card {
         margin-bottom: 30px;
@@ -585,23 +658,46 @@ h1 {
     top: 35%;
     
 }
-.main .text {
-    margin-left: -2%;
+.main .pic img {
+    margin-top: 15%;
+    width: 450px;
+    height: 450px;
 }
+.main .text {
+    margin-left: 5%;
+    margin-top: 6%;
+    width: 600px;
+}
+    .main .text h4 {
+        font-size: 30px;
+    }
+    .main .text h1 {
+        font-size: 50px;
+    }
+    .main .text p {
+        font-size: 26px;
+    }
 .work-examples {
         margin-left: 30%;
+    }
+.work-examples .work{
+    margin-left: -1.5%;
+    width: 95%;
     }
     .contact {
         margin-left: 30%;
     }
     .cv {
         margin-left: 30%;
+        position: absolute;
+        top: 5%;
     }
     .cv object {
-        height: 1090px;
+        height: 1000px;
+        width: 1700px;
     }
 .contact .card {
-        margin-bottom: 30px;
+        margin-bottom: 10%;
         width: 100%;
     }
 }
