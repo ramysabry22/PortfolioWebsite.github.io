@@ -184,7 +184,7 @@ h1 {
 .sidenav .sec-side .content .footer p {
     position: relative;
     font-size: 11px;
-    bottom: -10px;
+    bottom: -20px;
 }
 /* On mouse-over */
 .sidenav .first-side svg:hover :not(p){
@@ -199,7 +199,7 @@ h1 {
 }
 /* Add an active class to the active dropdown button */
 .active {
-    color: var(--primaryOne);
+    fill: var(--primaryOne);
     transition: 1s;
     webkit-transition: 1s;
     -moz-transition: 1s;

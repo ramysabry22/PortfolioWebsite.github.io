@@ -1,9 +1,9 @@
 $(".me").click(function(){
     $(".main-page").removeClass("hidden");
-    $(".me i").addClass("active");
-    $(".work i").removeClass("active");
-    $(".cv-cv i").removeClass("active");
-    $(".contact-c i").removeClass("active");
+    $(".me svg").addClass("active");
+    $(".work svg").removeClass("active");
+    $(".cv-cv svg").removeClass("active");
+    $(".contact-c svg").removeClass("active");
     $(".work-examples").addClass("hidden");
     $(".cv").addClass("hidden");
     $(".contact").addClass("hidden");
@@ -12,10 +12,10 @@ $(".me").click(function(){
 $(".work").click(function(){
     $(".cv").addClass("hidden");
     $(".contact").addClass("hidden");
-    $(".work i").addClass("active");
-    $(".me i").removeClass("active");
-    $(".cv-cv i").removeClass("active");
-    $(".contact-c i").removeClass("active");
+    $(".work svg").addClass("active");
+    $(".me svg").removeClass("active");
+    $(".cv-cv svg").removeClass("active");
+    $(".contact-c svg").removeClass("active");
     $(".main-page").addClass("hidden");
     $(".work-examples").removeClass("hidden");
   });
@@ -24,10 +24,10 @@ $(".cv-cv").click(function(){
     $(".main-page").addClass("hidden");
     $(".work-examples").addClass("hidden");
     $(".contact").addClass("hidden");
-    $(".cv-cv i").addClass("active");
-    $(".work i").removeClass("active");
-    $(".me i").removeClass("active");
-    $(".contact-c i").removeClass("active");
+    $(".cv-cv svg").addClass("active");
+    $(".work svg").removeClass("active");
+    $(".me svg").removeClass("active");
+    $(".contact-c svg").removeClass("active");
     $(".cv").removeClass("hidden");
   });
 
@@ -35,10 +35,10 @@ $(".contact-c").click(function(){
     $(".main-page").addClass("hidden");
     $(".work-examples").addClass("hidden");
     $(".cv").addClass("hidden");
-    $(".contact-c i").addClass("active");
-    $(".me i").removeClass("active");
-    $(".work i").removeClass("active");
-    $(".cv-cv i").removeClass("active");
+    $(".contact-c svg").addClass("active");
+    $(".me svg").removeClass("active");
+    $(".work svg").removeClass("active");
+    $(".cv-cv svg").removeClass("active");
     $(".contact").removeClass("hidden");
   });
 
