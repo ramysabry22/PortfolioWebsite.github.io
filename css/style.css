@@ -715,7 +715,7 @@ h1 {
         width: 1300px;
     }
     .contact {
-        width: 70%;
+        width: 90%;
         padding-right: 80px;
     }
 .contact .card {
@@ -733,7 +733,7 @@ h1 {
         margin-top: 15%;
     }
 .main {
-    margin-left: 37%;
+    margin-left: 40%;
     top: 3%;
     
 }
@@ -757,17 +757,17 @@ h1 {
         font-size: 19px;
     }
 .work-examples {
-        margin-left: 37%;
+        margin-left: 40%;
     }
 .work-examples .work{
     margin-left: -1.5%;
     width: 95%;
     }
     .contact {
-        margin-left: 30%;
+        margin-left: 40%;
     }
     .cv {
-        margin-left: 37%;
+        margin-left: 40%;
         position: absolute;
         top: 5%;
     }
