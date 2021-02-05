@@ -1,3 +1,4 @@
+
 /*colors*/
 :root {
     --primaryOne: #30353F;
@@ -10,6 +11,9 @@
 }
 /*colors*/
 /* Fixed sidenav, full height */
+svg:hover {
+   fill: var(--primaryFour);
+}
 body {
     overflow-x: hidden;
     
@@ -177,13 +181,15 @@ h1 {
     font-size: 15px;
 }
 /* On mouse-over */
-.sidenav .first-side a:hover :not(p){
+.sidenav .first-side svg:hover :not(p){
     color: var(--primaryOne);
+/*
     transition: 0.5s;
     webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
     -ms-transition: 0.5s;
+*/
 }
 /* Add an active class to the active dropdown button */
 .active {
