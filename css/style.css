@@ -715,11 +715,11 @@ h1 {
         width: 1300px;
     }
     .contact {
-        width: 90%;
+        width: 70%;
         padding-right: 80px;
     }
 .contact .card {
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 }
 @media only screen and (min-width: 2000px) {
@@ -780,6 +780,6 @@ h1 {
         padding-right: 80px;
     }
 .contact .card {
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 }
