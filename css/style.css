@@ -708,11 +708,14 @@ h1 {
         top: 5%;
     }
     .cv object {
-        height: 800px;
-        width: 1200px;
+        height: 650px;
+        width: 1300px;
+    }
+    .contact {
+        width: 70%;
+        padding-right: 80px;
     }
 .contact .card {
         margin-bottom: 10%;
-        width: 100%;
     }
 }
