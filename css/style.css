@@ -11,8 +11,11 @@
 }
 /*colors*/
 /* Fixed sidenav, full height */
+svg {
+    fill: var(--secondaryTwo);
+}
 svg:hover {
-   fill: var(--primaryFour);
+   fill: var(--primaryOne);
 }
 body {
     overflow-x: hidden;
@@ -117,6 +120,7 @@ h1 {
 }
 .sidenav .sec-side .content img {
     border-radius: 50%;
+    border: 6px solid var(--primaryTwo);
 }
 .sidenav .sec-side .content h1 {
     color: var(--primaryTwo);
@@ -178,7 +182,9 @@ h1 {
     margin-left: 20px;
 }
 .sidenav .sec-side .content .footer p {
-    font-size: 15px;
+    position: relative;
+    font-size: 11px;
+    bottom: -10px;
 }
 /* On mouse-over */
 .sidenav .first-side svg:hover :not(p){
