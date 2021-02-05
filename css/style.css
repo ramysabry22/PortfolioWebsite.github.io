@@ -1,6 +1,6 @@
 /*colors*/
 :root {
-    --primaryOne: #04B4E0;
+    --primaryOne: #30353F;
     --primaryTwo: #ffffff;
     --primaryThree: #222;
     --primaryFour: #666;
@@ -82,7 +82,7 @@ h1 {
 }
 .sidenav .sec-side {
     display: inline-block;
-    background-color: #04B4E0;
+    background-color: var(--primaryOne);
     min-height: 100%;
     width: 420px;
     position: absolute;
@@ -123,11 +123,12 @@ h1 {
     line-height: 1.2em;
 }
 .sidenav .sec-side .content p {
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 500;
     color: var(--primaryTwo);
     line-height: 1.2em; 
     margin-bottom: 30px;
+    margin-top: -9px;
 }
 .sidenav .sec-side .content ul {
     display: inline;
@@ -238,7 +239,7 @@ h1 {
     margin-bottom: 20px;
 }
 .main .text p {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 1.75em;
     color: var(--secondaryOne);
@@ -551,7 +552,9 @@ h1 {
     margin-left: -5%;
     margin-top: 6%;
 }
-
+.main .text p {
+        font-size: 19px;
+    }
 .work-examples {
         margin-left: 39%;
         top: 0%;
@@ -617,7 +620,7 @@ h1 {
         font-size: 45px;
     }
     .main .text p {
-        font-size: 24px;
+        font-size: 19px;
     }
 .work-examples {
         margin-left: 33%;
@@ -675,7 +678,7 @@ h1 {
         font-size: 50px;
     }
     .main .text p {
-        font-size: 26px;
+        font-size: 19px;
     }
 .work-examples {
         margin-left: 30%;
