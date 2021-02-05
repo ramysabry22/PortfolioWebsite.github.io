@@ -115,6 +115,9 @@ h1 {
     cursor: pointer;
     outline: none;
 }
+.sidenav .first-side p {
+    margin-top: 10px;
+}
 .sidenav .sec-side .content {
     margin-top: 12%;
 }
@@ -708,7 +711,7 @@ h1 {
         top: 5%;
     }
     .cv object {
-        height: 650px;
+        height: 700px;
         width: 1300px;
     }
     .contact {
@@ -716,6 +719,67 @@ h1 {
         padding-right: 80px;
     }
 .contact .card {
-        margin-bottom: 10%;
+        margin-bottom: 2%;
+    }
+}
+@media only screen and (min-width: 2000px) {
+.sidenav .first-side .cv-cv{
+        display: block;
+    }
+.sidenav .first-side .hr {
+        display: block;
+    }
+.sidenav .sec-side .content{
+        margin-top: 15%;
+    }
+.main {
+    margin-left: 37%;
+    top: 3%;
+    
+}
+.main .pic img {
+    margin-top: 15%;
+    width: 450px;
+    height: 450px;
+}
+.main .text {
+    margin-left: 5%;
+    margin-top: 6%;
+    width: 600px;
+}
+    .main .text h4 {
+        font-size: 30px;
+    }
+    .main .text h1 {
+        font-size: 50px;
+    }
+    .main .text p {
+        font-size: 19px;
+    }
+.work-examples {
+        margin-left: 37%;
+    }
+.work-examples .work{
+    margin-left: -1.5%;
+    width: 95%;
+    }
+    .contact {
+        margin-left: 30%;
+    }
+    .cv {
+        margin-left: 37%;
+        position: absolute;
+        top: 5%;
+    }
+    .cv object {
+        height: 700px;
+        width: 1300px;
+    }
+    .contact {
+        width: 70%;
+        padding-right: 80px;
+    }
+.contact .card {
+        margin-bottom: 2%;
     }
 }
