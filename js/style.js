@@ -45,4 +45,7 @@ $(".contact-c").click(function(){
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
-
+$(document).ready(function () {
+  setInterval(function(){ $("#text-one").toggleClass("hidden"); }, 1500);
+  setInterval(function(){ $("#text-two").toggleClass("hidden"); }, 1500);
+    });
